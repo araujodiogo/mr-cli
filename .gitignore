@@ -1,0 +1,12 @@
+# Node.js artifacts
+node_modules/
+dist/
+.cache/
+.env
+*.log
+
+# Yarn files
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+.pnp.*

@@ -1,0 +1,21 @@
+{
+  "name": "mr-cli",
+  "main": "src/index.js",
+  "type": "module",
+  "packageManager": "yarn@4.6.0",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "node bin/cli.js"
+  },
+  "bin": {
+    "build-monorepo": "./bin/cli.js"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.0.0",
+    "execa": "^9.5.2",
+    "simple-git": "^3.27.0"
+  }
+}
