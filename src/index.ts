@@ -19,6 +19,11 @@ export async function setupProject(directory: string) {
     const git = simpleGit();
     await git.clone(GITHUB_REPO_URL, targetPath);
 
+    const gitFolderPath = path.join(targetPath, '.git');
+    if (fs.existsSync(gitFolderPath)) {
+      fs.rmSync(gitFolderPath, { recursive: true, force: true });
+    }
+
     console.log(chalk.green(`Monorepo created in ${targetPath}. Happy coding 🎉`));
   } catch (error) {
     if (error instanceof Error) {
