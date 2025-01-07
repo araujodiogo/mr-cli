@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a100ab2-9b03-4aa5-9118-3c4ee629afb6" name="Changes" comment="" />
+    <list default="true" id="7a100ab2-9b03-4aa5-9118-3c4ee629afb6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/cli.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +32,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "javascript.nodejs.core.library.configured.version": "22.12.0",
     "javascript.nodejs.core.library.typings.version": "22.10.5",
     "last_opened_file_path": "//wsl.localhost/Debian/home/araujodiogo/projects/mr-cli",
@@ -35,7 +42,8 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "wsl://Debian@/usr/bin/node",
     "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "settings.nodejs",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "ts.external.directory.path": "\\\\wsl.localhost\\Debian\\home\\araujodiogo\\projects\\mr-cli\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -56,7 +64,8 @@
       <updated>1736048895393</updated>
       <workItem from="1736048896462" duration="2266000" />
       <workItem from="1736101725166" duration="1107000" />
-      <workItem from="1736196562384" duration="2399000" />
+      <workItem from="1736196562384" duration="3124000" />
+      <workItem from="1736217970232" duration="1453000" />
     </task>
     <servers />
   </component>
