@@ -5,7 +5,7 @@ import fs from 'fs';
 
 const GITHUB_REPO_URL = 'https://github.com/araujodiogo/monorepo-template.git';
 
-export async function setupProject(directory: string) {
+export async function configureNewProject(directory: string) {
   try {
     const targetPath = path.resolve(process.cwd(), directory);
 
