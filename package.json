@@ -1,17 +1,17 @@
 {
   "name": "quick-monorepo",
-  "main": "src/index.ts",
+  "main": "dist/src/index.js",
   "type": "module",
   "packageManager": "yarn@4.6.0",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "license": "MIT",
   "scripts": {
     "start": "node dist/bin/cli.js",
     "build": "npx tsc"
   },
   "bin": {
-    "build-monorepo": "bin/cli.ts"
+    "build-monorepo": "dist/bin/cli.js"
   },
   "dependencies": {
     "chalk": "^5.4.1",
