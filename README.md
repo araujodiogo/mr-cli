@@ -21,11 +21,20 @@ The bundle comes pre-configured with the following tools to ensure a smooth deve
 
 ## Usage
 
-To set up a new project from the monorepo template, run the following command:
+To set up a new project run the following command:
 
 ```
+yarn dlx quick-monorepo <project-name>
+```
+
+If you prefer npm, first install the package globally and run it after:
+
+```
+npm install -g quick-monorepo
+
 quick-monorepo <project-name>
 ```
+
 
 - `<project-name>`: The desired folder name for your project.
 
